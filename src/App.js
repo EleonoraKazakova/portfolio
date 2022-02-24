@@ -1,15 +1,30 @@
-import logo from "./logo.svg";
 import "./styles/App.css";
+import Hero from "./components/Hero";
+import Bar from "./components/Bar";
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Tech from "./components/TechStack";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="app-grid">
-      <div className="app-bar"></div>
-      <div className="app-hero"></div>
-      <div className="app-about"></div>
-      <div className="app-portfolio"></div>
-      <div className="app-tech"></div>
-      <div className="app-footer"></div>
+      <div className="app-hero">
+        <Bar />
+        <Hero />
+      </div>
+      <div className="app-about">
+        <About />
+      </div>
+      <div className="app-portfolio">
+        <Portfolio />
+      </div>
+      <div className="app-tech">
+        <Tech />
+      </div>
+      <div className="app-footer">
+        <Footer />
+      </div>
     </div>
   );
 }

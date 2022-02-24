@@ -1,3 +1,35 @@
+/* @media (max-width: 899px) {
+  .hero-content {
+    background-image: url("../images/heroImg.jpg");
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    min-height: 100vh;
+    min-width: 100vw; 
+    width: 100%;
+  }
+}
+@media (min-width: 899px) {
+  .hero-content {
+    background-image: url("../images/heroImg.jpg");
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    min-height: 100vh;
+    min-width: 100vw; 
+    width: 100%;
+  }
+} */
+
 .hero-content {
-  background-image: url();
+  background-image: url("../images/heroImg.jpg");
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  min-height: 100vh;
+  min-width: 100vw;
+  width: 100%;
 }

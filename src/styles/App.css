@@ -1,38 +1,33 @@
 .app-grid {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 50px auto 100px 100px 100px 100px;
+  grid-template-rows: auto 300px 300px 300px 300px;
   min-height: 100vh;
 }
 
-.app-bar {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-  background-color: #000000;
-}
 .app-hero {
   grid-column: 1 / 2;
-  grid-row: 2 / 3;
-  background-color: #fbd914;
+  grid-row: 1 / 2;
+  background-color: #23b95d;
 }
 .app-about {
   grid-column: 1 / 2;
-  grid-row: 3 / 4;
+  grid-row: 2 / 3;
   background-color: #3d598f;
 }
 .app-portfolio {
   grid-column: 1 / 2;
-  grid-row: 4 / 5;
+  grid-row: 3 / 4;
   background-color: #fbd914;
 }
 .app-tech {
   grid-column: 1 / 2;
-  grid-row: 5 / 6;
+  grid-row: 4 / 5;
   background-color: #86570f;
 }
 
 .app-footer {
   grid-column: 1 / 2;
-  grid-row: 6 / 7;
+  grid-row: 5 / 6;
   background-color: #000000;
 }
