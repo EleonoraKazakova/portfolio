@@ -1,9 +1,9 @@
 .about-content {
   display: flex;
   justify-content: center;
-  padding: 50px;
+  padding: 200px 200px 200px 200px;
 }
 
 .about-photo {
-  width: 200px;
+  width: 300px;
 }

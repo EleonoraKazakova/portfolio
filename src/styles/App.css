@@ -1,29 +1,29 @@
 .app-grid {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: auto 300px 300px 300px 300px;
+  grid-template-rows: [hero]auto [about]600px [portfolio]auto [tech]500px [footer]300px;
   min-height: 100vh;
 }
 
 .app-hero {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
-  background-color: #23b95d;
+  background-color: #424147;
 }
 .app-about {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
-  background-color: #3d598f;
+  background-color: #e5e7ed;
 }
 .app-portfolio {
   grid-column: 1 / 2;
   grid-row: 3 / 4;
-  background-color: #fbd914;
+  background-color: #424147;
 }
 .app-tech {
   grid-column: 1 / 2;
   grid-row: 4 / 5;
-  background-color: #86570f;
+  background-color: #e5e7ed;
 }
 
 .app-footer {

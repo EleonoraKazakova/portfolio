@@ -1,3 +1,33 @@
+.portfolio-content {
+  padding: 200px 200px 200px 200px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
 .portfolio-photo {
   width: 200px;
+}
+
+.portfolio-photo-block {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  width: 600px;
+}
+
+.portfolio-photo-line {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.portfolio-photo-name {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
 }
