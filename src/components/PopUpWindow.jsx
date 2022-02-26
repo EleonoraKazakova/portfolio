@@ -15,7 +15,6 @@ export default function Modal({ children, open, onClose }) {
         <div className="modal-name-tech">
           {name}
           {text}
-
           {tech}
           {web}
           {git}

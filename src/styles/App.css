@@ -1,7 +1,7 @@
 .app-grid {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: [hero]auto [about]600px [portfolio]auto [tech]500px [footer]300px;
+  grid-template-rows: [hero]auto [about]auto [portfolio]auto [tech]auto [contact]auto [footer]100px;
   min-height: 100vh;
 }
 
@@ -26,8 +26,14 @@
   background-color: #e5e7ed;
 }
 
-.app-footer {
+.app-contact {
   grid-column: 1 / 2;
   grid-row: 5 / 6;
+  background-color: #424147;
+}
+
+.app-footer {
+  grid-column: 1 / 2;
+  grid-row: 6 / 7;
   background-color: #000000;
 }

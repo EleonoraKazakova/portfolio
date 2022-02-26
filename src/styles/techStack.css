@@ -1,0 +1,26 @@
+.techStack-photo {
+  width: 70px;
+}
+
+.techStack-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 400px 50px 400px;
+}
+
+.techStack-content-tech {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 350px;
+}
+
+.techStack-block {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}

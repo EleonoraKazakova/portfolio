@@ -35,12 +35,6 @@ button {
   font-size: 14px;
 }
 
-h2,
-h3,
-h4 {
-  color: black;
-}
-
 * {
   box-sizing: border-box;
   font-family: NotoSans;

@@ -1,9 +1,26 @@
 .about-content {
   display: flex;
   justify-content: center;
-  padding: 200px 200px 200px 200px;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0px 400px 50px 400px;
 }
 
 .about-photo {
   width: 300px;
+}
+
+.about-block {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.about-title {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  gap: 20px;
+  padding-top: 80px;
 }

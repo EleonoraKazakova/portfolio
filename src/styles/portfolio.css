@@ -1,8 +1,16 @@
-.portfolio-content {
+/*.portfolio-content {
   padding: 200px 200px 200px 200px;
   display: flex;
   justify-content: center;
   color: white;
+}*/
+
+.portfolio-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0px 400px 50px 400px;
 }
 
 .portfolio-photo-block {
@@ -18,4 +26,19 @@
   justify-content: center;
   flex-direction: row;
   gap: 20px;
+}
+
+.portfolio-block {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.portfolio-title {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  gap: 20px;
+  padding-top: 80px;
 }

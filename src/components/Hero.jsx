@@ -1,6 +1,15 @@
 import "../styles/hero.css";
-import HeroImg from "../images/heroImg.jpg";
 
 export default function Hero() {
-  return <div className="hero-content" name="hero"></div>;
+  return (
+    <div className="hero-content" name="hero">
+      <div className="hero-text">
+        <h1>Welcome!</h1>
+        <h3>
+          Hello! My name is Eleonora and I am Junior Frontend Developer based in
+          Uppsala.
+        </h3>
+      </div>
+    </div>
+  );
 }
