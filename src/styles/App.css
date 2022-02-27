@@ -1,7 +1,7 @@
 .app-grid {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: [hero]auto [about]auto [portfolio]auto [tech]auto [contact]auto [footer]100px;
+  grid-template-rows: [hero]auto [about]auto [portfolio]auto [tech]auto [contact]auto [footer]auto;
   min-height: 100vh;
 }
 
@@ -9,6 +9,7 @@
   grid-column: 1 / 2;
   grid-row: 1 / 2;
   background-color: #424147;
+  display: flex;
 }
 .app-about {
   grid-column: 1 / 2;
@@ -19,21 +20,20 @@
   grid-column: 1 / 2;
   grid-row: 3 / 4;
   background-color: #424147;
+  display: flex;
+  justify-content: center;
+  color: white;
 }
 .app-tech {
   grid-column: 1 / 2;
   grid-row: 4 / 5;
   background-color: #e5e7ed;
-}
-
-.app-contact {
-  grid-column: 1 / 2;
-  grid-row: 5 / 6;
-  background-color: #424147;
+  display: flex;
+  justify-content: center;
 }
 
 .app-footer {
   grid-column: 1 / 2;
-  grid-row: 6 / 7;
-  background-color: #000000;
+  grid-row: 5 / 6;
+  background-color: #424147;
 }

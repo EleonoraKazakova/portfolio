@@ -8,36 +8,6 @@ import Phone from "../images/footer/phone.svg";
 import { ExternalLink } from "react-external-link";
 
 export default function Footer() {
-  const contacts = [
-    {
-      img: Envelope,
-      text: (
-        <a href="mailto:eleonora.kazakova89@gmail.com" className="footer-link">
-          eleonora.kazakova89@gmail.com
-        </a>
-      ),
-    },
-    {
-      img: Phone,
-      text: (
-        <a href="tel:+46707994751" className="footer-link">
-          +46 70 799 4751
-        </a>
-      ),
-    },
-    {
-      img: Location,
-      text: "Uppsala, Sweden",
-    },
-  ];
-
-  const contactBlock = contacts.map((contact) => (
-    <div className="footer-contact-line">
-      <img src={contact.img} className="footer-contact-img" />
-      <p>{contact.text}</p>
-    </div>
-  ));
-
   const media = [
     {
       img: Linkedin,
@@ -63,11 +33,11 @@ export default function Footer() {
         <div className="footer-text-contact">
           <h1>Contact me</h1>
           <div className="footer-contact">
-            <p className="footer-text">
+            <p>
               Here is my contact information if you are interested in
               interviewing me.
             </p>
-            <div className="footer-contact-block">{contactBlock}</div>
+            <div>{contactBlock}</div>
           </div>
         </div>
       </div>

@@ -23,19 +23,25 @@ export default function TechStack() {
     { img: ReactTest, name: "React testing library" },
     { img: Jest, name: "Jest" },
     { img: Git, name: "Git" },
-    { img: MYSQL, name: "" },
-    { img: Figma, name: "MYSQL" },
+    { img: MYSQL, name: "MYSQL" },
+    { img: Figma, name: "Figma" },
     { img: Firebase, name: "Firebase" },
   ];
 
   const techBlock = imgTech.map((tech) => (
     <div className="techStack-block">
       <img src={tech.img} className="techStack-photo" />
-      <p>{tech.name}</p>
+      <p className="techStack-photo-title">{tech.name}</p>
     </div>
   ));
   return (
     <div name="tech" className="techStack-content">
+      <h1 className="techStack-title">Technologies I use</h1>
+
+      <p className="techStack-text">
+        Here is the techology that I already know and also starting to learn.
+      </p>
+
       <div className="techStack-content-tech">{techBlock}</div>
     </div>
   );

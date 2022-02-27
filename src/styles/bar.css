@@ -9,8 +9,14 @@
   top: 0;
   width: 100%;
   height: 80px;
+  z-index: 3;
 }
 
 .bar-logo {
   width: 30px;
+  cursor: pointer;
+}
+
+.bar-link {
+  cursor: pointer;
 }

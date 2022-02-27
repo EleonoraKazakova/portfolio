@@ -22,9 +22,7 @@ function App() {
       <div className="app-tech">
         <Tech />
       </div>
-      <div className="app-contact">
-        <Contact />
-      </div>
+
       <div className="app-footer">
         <Footer />
       </div>
