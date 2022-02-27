@@ -13,11 +13,7 @@ module.exports = {
   },
   plugins: ["react"],
   rules: {
-    test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/i,
-    use: [
-      {
-        loader: "file-loader",
-      },
-    ],
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
   },
 };

@@ -10,6 +10,7 @@ import { ExternalLink } from "react-external-link";
 export default function Footer() {
   const contacts = [
     {
+      id: 0,
       img: Envelope,
       text: (
         <a href="mailto:eleonora.kazakova89@gmail.com" className="footer-link">
@@ -18,6 +19,7 @@ export default function Footer() {
       ),
     },
     {
+      id: 1,
       img: Phone,
       text: (
         <a href="tel:+46707994751" className="footer-link">
@@ -25,14 +27,11 @@ export default function Footer() {
         </a>
       ),
     },
-    {
-      img: Location,
-      text: "Uppsala, Sweden",
-    },
+    { id: 2, img: Location, text: "Uppsala, Sweden" },
   ];
 
   const contactBlock = contacts.map((contact) => (
-    <div className="footer-contact-line">
+    <div className="footer-contact-line" key={contact.id}>
       <img src={contact.img} className="footer-contact-img" />
       <p>{contact.text}</p>
     </div>
@@ -40,17 +39,19 @@ export default function Footer() {
 
   const media = [
     {
+      id: 0,
       img: Linkedin,
       link: "https://www.linkedin.com/in/eleonora-kazakova-0841b07a/",
     },
-    { img: Github, link: "https://github.com/EleonoraKazakova" },
+    { id: 1, img: Github, link: "https://github.com/EleonoraKazakova" },
     {
+      id: 2,
       img: Codewars,
       link: "https://www.codewars.com/users/Eleonora%20Kazakova",
     },
   ];
   const mediaBlock = media.map((imgMedia) => (
-    <div>
+    <div key={imgMedia.id}>
       <ExternalLink href={imgMedia.link}>
         <img src={imgMedia.img} className="footer-media" />
       </ExternalLink>

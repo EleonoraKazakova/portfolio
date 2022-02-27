@@ -5,9 +5,13 @@ import { ExternalLink } from "react-external-link";
 
 export default function Card({ card }) {
   const [isOpen, setIsOpen] = useState(false);
-
-  const technologies = card.tech.map((t) =>
-    t.length > 0 ? <div className="card-tech">{t}</div> : null
+  console.log("card:", card);
+  const technologies = card.tech.map((technology) =>
+    technology.length > 0 ? (
+      <div className="card-tech" key={technology}>
+        {technology}
+      </div>
+    ) : null
   );
 
   const openedCart = card.status ? (

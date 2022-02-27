@@ -5,8 +5,11 @@ import Card from "./Card";
 
 export default function Portfolio() {
   const projects = data.cards;
-  const projectBlock = projects.map((project) => <Card card={project} />);
-  console.log("projectBlock:", projectBlock);
+  const projectBlock = projects.map((project) => (
+    <div key={project.id}>
+      <Card card={project} />
+    </div>
+  ));
 
   return (
     <div className="portfolio-content-block" name="portfolio">

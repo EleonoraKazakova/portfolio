@@ -14,22 +14,22 @@ import TS from "../images/tech/ts.jpg";
 
 export default function TechStack() {
   const imgTech = [
-    { img: JS, name: "JavaScript" },
-    { img: TS, name: "TypeScript" },
-    { img: HTML, name: "HTML" },
-    { img: ReactIMG, name: "React" },
-    { img: SASS, name: "SASS" },
-    { img: CSS, name: "CSS" },
-    { img: ReactTest, name: "React testing library" },
-    { img: Jest, name: "Jest" },
-    { img: Git, name: "Git" },
-    { img: MYSQL, name: "MYSQL" },
-    { img: Figma, name: "Figma" },
-    { img: Firebase, name: "Firebase" },
+    { id: 0, img: JS, name: "JavaScript" },
+    { id: 1, img: TS, name: "TypeScript" },
+    { id: 2, img: HTML, name: "HTML" },
+    { id: 3, img: ReactIMG, name: "React" },
+    { id: 4, img: SASS, name: "SASS" },
+    { id: 5, img: CSS, name: "CSS" },
+    { id: 6, img: ReactTest, name: "React testing library" },
+    { id: 7, img: Jest, name: "Jest" },
+    { id: 8, img: Git, name: "Git" },
+    { id: 9, img: MYSQL, name: "MYSQL" },
+    { id: 10, img: Figma, name: "Figma" },
+    { id: 11, img: Firebase, name: "Firebase" },
   ];
 
   const techBlock = imgTech.map((tech) => (
-    <div className="techStack-block">
+    <div className="techStack-block" key={tech.id}>
       <img src={tech.img} className="techStack-photo" />
       <p className="techStack-photo-title">{tech.name}</p>
     </div>
