@@ -1,18 +1,10 @@
 import Modal from "./Modal";
 import "../styles/card.css";
 import { useState } from "react";
-import { ExternalLink } from "react-external-link";
+import Project from "./Project";
 
 export default function Card({ card }) {
   const [isOpen, setIsOpen] = useState(false);
-  console.log("card:", card);
-  const technologies = card.tech.map((technology) =>
-    technology.length > 0 ? (
-      <div className="card-tech" key={technology}>
-        {technology}
-      </div>
-    ) : null
-  );
 
   const openedCard = card.status ? (
     <img src={card.img} className="card-photo" />
@@ -26,22 +18,7 @@ export default function Card({ card }) {
   const modalWindow =
     card.text.length > 0 ? (
       <Modal open={isOpen} onClose={() => setIsOpen(false)}>
-        <img src={card.imgProject} />
-        <div className="card-content">
-          <div className="card-title">
-            <p>{card.name}</p>
-            <p>{card.text}</p>
-          </div>
-          <div className="card-tech-block">{technologies}</div>
-          <div className="card-title">
-            <ExternalLink href={card.web} className="card-app">
-              <span>Visit the site</span>
-            </ExternalLink>
-            <ExternalLink href={card.git} className="card-git">
-              <span>Source code</span>
-            </ExternalLink>
-          </div>
-        </div>
+        <Project card={card} />
       </Modal>
     ) : null;
 

@@ -67,11 +67,11 @@
 }
 
 .techStack-block {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   align-items: center;
+  display: grid;
+  justify-items: center;
   width: 90px;
+  grid-template-rows: 80px auto;
 }
 
 .techStack-photo-title {

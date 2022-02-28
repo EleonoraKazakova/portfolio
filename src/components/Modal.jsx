@@ -4,19 +4,11 @@ import Xmark from "../images/xmark-solid.svg";
 
 export default function Modal({ children, open, onClose }) {
   if (!open) return null;
-  const [img, name, tech, text, web, git] = children;
   return ReactDOM.createPortal(
     <div>
       <div className="modal-OVERLAY_STYLES" />
       <div className="modal-MODALSTYLES">
-        {img}
-        <div className="modal-name-tech">
-          {name}
-          {text}
-          {tech}
-          {web}
-          {git}
-        </div>
+        <div className="modal-name-tech">{children}</div>
         <img onClick={onClose} src={Xmark} className="modal-mark" />
       </div>
     </div>,
