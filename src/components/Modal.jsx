@@ -1,4 +1,4 @@
-import "../styles/popUpWindow.css";
+import "../styles/modal.css";
 import ReactDOM from "react-dom";
 import Xmark from "../images/xmark-solid.svg";
 

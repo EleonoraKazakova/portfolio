@@ -1,4 +1,4 @@
-import Modal from "./PopUpWindow";
+import Modal from "./Modal";
 import "../styles/card.css";
 import { useState } from "react";
 import { ExternalLink } from "react-external-link";
@@ -14,7 +14,7 @@ export default function Card({ card }) {
     ) : null
   );
 
-  const openedCart = card.status ? (
+  const openedCard = card.status ? (
     <img src={card.img} className="card-photo" />
   ) : (
     <div className="card-parent">
@@ -38,7 +38,7 @@ export default function Card({ card }) {
               <span>Visit the site</span>
             </ExternalLink>
             <ExternalLink href={card.git} className="card-git">
-              <span>Look at the git</span>
+              <span>Source code</span>
             </ExternalLink>
           </div>
         </div>
@@ -48,7 +48,7 @@ export default function Card({ card }) {
   return (
     <div className="card-photo-name" key={card.id}>
       <button onClick={() => setIsOpen(true)}>
-        {openedCart}
+        {openedCard}
         <p>{card.name}</p>
       </button>
 
