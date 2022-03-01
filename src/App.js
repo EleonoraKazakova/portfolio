@@ -13,12 +13,15 @@ function App() {
         <Bar />
         <Hero />
       </div>
+
       <div className="app-about">
         <About />
       </div>
+
       <div className="app-portfolio">
         <Portfolio />
       </div>
+
       <div className="app-tech">
         <Tech />
       </div>
