@@ -13,12 +13,12 @@ export default function Project({ card }) {
     <div className="project-content">
       <img src={card.imgProject} className="project-img" />
       <div className="project-block">
-        <div className="project-title">
-          <p>{card.name}</p>
+        <div className="project-text">
+          <p className="project-title">{card.name}</p>
           <p>{card.text}</p>
         </div>
         <div className="project-tech-block">{technologies}</div>
-        <div className="project-title">
+        <div className="project-text">
           <ExternalLink href={card.web} className="project-app">
             <span>Visit the site</span>
           </ExternalLink>

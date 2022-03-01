@@ -8,7 +8,7 @@ import TodoList_project from "../images/to-do.jpg";
 import Package_img from "../images/package.jpg";
 
 export const data = {
-  cards: [
+  projects: [
     {
       id: "0",
       name: "Vegan restaurant",

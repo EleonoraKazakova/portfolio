@@ -1,11 +1,10 @@
 import "../styles/portfolio.css";
-import { data } from "./CardForm";
+import { data } from "./DataProjects";
 
 import Card from "./Card";
 
 export default function Portfolio() {
-  const projects = data.cards;
-  const projectBlock = projects.map((project) => (
+  const projectBlock = data.projects.map((project) => (
     <div key={project.id}>
       <Card card={project} />
     </div>
