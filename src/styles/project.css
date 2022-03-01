@@ -4,6 +4,7 @@
     gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 20px;
   }
 
   .project-content {
@@ -20,7 +21,7 @@
 
   .project-block {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     flex-direction: column;
     align-items: center;
     text-align: justify;
@@ -33,6 +34,7 @@
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    padding-bottom: 20px;
   }
 
   .project-content {
@@ -49,19 +51,11 @@
 
   .project-block {
     display: flex;
-    gap: 10px;
     flex-direction: column;
     align-items: center;
     text-align: justify;
+    gap: 10px;
   }
-}
-
-.project-text {
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-  align-items: center;
-  text-align: justify;
 }
 
 .project-title {
@@ -101,5 +95,5 @@
   border-radius: 10px;
   justify-content: center;
   width: 100px;
-  gap: 10px;
+  font-size: 14px;
 }

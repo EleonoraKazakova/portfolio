@@ -1,9 +1,12 @@
-.card-photo-name {
+.card-content {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  gap: 10px;
   align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  color: black;
+  cursor: pointer;
 }
 
 .card-parent {
@@ -12,9 +15,7 @@
   left: 0;
 }
 .card-photo {
-  position: relative;
   width: 200px;
-  z-index: 1;
 }
 
 .card-coming-soon {

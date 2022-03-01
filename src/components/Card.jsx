@@ -7,8 +7,8 @@ export default function Card({ card }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="card-photo-name" key={card.id}>
-      <button onClick={() => setIsOpen(true)}>
+    <div>
+      <div onClick={() => setIsOpen(true)} className="card-content">
         {card.status ? (
           <img src={card.img} className="card-photo" />
         ) : (
@@ -18,7 +18,7 @@ export default function Card({ card }) {
           </div>
         )}
         <p>{card.name}</p>
-      </button>
+      </div>
 
       {card.text.length > 0 ? (
         <Modal open={isOpen} onClose={() => setIsOpen(false)}>

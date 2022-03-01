@@ -1,33 +1,17 @@
 @media (max-width: 899px) {
   .footer-content-block {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: [title]auto [text]auto [contact]auto [media]100%;
     color: white;
   }
 
   .footer-title {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    display: flex;
-    align-items: center;
     padding: 20px 0 20px 20px;
   }
 
   .footer-text {
-    font-size: 18px;
-    grid-column: 1/2;
-    grid-row: 2/3;
     padding: 0 20px 0 20px;
   }
 
   .footer-contact-block {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    grid-column: 1/2;
-    grid-row: 3/4;
-    flex-direction: column;
     padding: 20px;
   }
 
@@ -35,51 +19,27 @@
     display: flex;
     justify-content: center;
     gap: 40px;
-    flex-wrap: wrap;
-    grid-column: 1/2;
-    grid-row: 4/5;
     background-color: #000000;
     padding: 20px 0 20px;
   }
 }
 @media (min-width: 900px) {
   .footer-content-block {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: [block]auto [media]100%;
     color: white;
   }
 
   .footer-block {
-    grid-column: 1/2;
-    grid-row: 1/2;
     display: grid;
     grid-template-columns: 300px 500px;
-    grid-template-rows: [title]auto [text]auto [contact]auto;
     justify-content: center;
     padding: 20px 0 20px 0;
   }
 
   .footer-title {
     grid-column: 1/3;
-    grid-row: 1/2;
-    display: flex;
-    align-items: center;
-  }
-
-  .footer-text {
-    grid-column: 1/2;
-    grid-row: 2/3;
-    font-size: 18px;
   }
 
   .footer-contact-block {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
     padding-left: 100px;
   }
 
@@ -87,9 +47,6 @@
     display: flex;
     justify-content: center;
     gap: 40px;
-    flex-wrap: wrap;
-    grid-column: 1/2;
-    grid-row: 2/3;
     background-color: #000000;
     padding: 20px 0 20px 0;
   }
@@ -97,7 +54,6 @@
 
 .footer-contact-line {
   display: flex;
-  flex-direction: row;
   gap: 10px;
   padding-bottom: 10px;
 }
