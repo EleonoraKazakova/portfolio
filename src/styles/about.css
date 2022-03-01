@@ -16,9 +16,13 @@
   }
 
   .about-text {
-    font-size: 20px;
     grid-column: 1/2;
     grid-row: 3/4;
+    font-size: 18px;
+    width: auto;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
   }
 
   .about-photo-block {
@@ -28,11 +32,6 @@
     flex-wrap: wrap;
     grid-column: 1/2;
     grid-row: 1/2;
-  }
-
-  .about-text {
-    font-size: 20px;
-    width: auto;
   }
 }
 
@@ -70,6 +69,9 @@
   .about-text {
     font-size: 20px;
     width: 300px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
   }
 }
 

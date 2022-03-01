@@ -65,10 +65,10 @@ export default function Footer() {
           <h1>Contact me</h1>
         </div>
 
-        <div className="footer-text">
+        <p className="footer-text">
           Here is my contact information if you are interested in interviewing
           me.
-        </div>
+        </p>
         <div className="footer-contact-block">{contactBlock}</div>
       </div>
       <div className="footer-media-block">{mediaBlock}</div>
