@@ -1,34 +1,12 @@
-@media (max-width: 899px) {
-  .card-tech-block {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
-
-@media (min-width: 900px) {
-  .card-tech-block {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-  }
-}
-
 .card-content {
   display: flex;
-  gap: 20px;
   flex-direction: column;
   align-items: center;
-  text-align: justify;
-}
-
-.card-photo-name {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  gap: 10px;
-  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  color: black;
+  cursor: pointer;
 }
 
 .card-parent {
@@ -37,9 +15,7 @@
   left: 0;
 }
 .card-photo {
-  position: relative;
   width: 200px;
-  z-index: 1;
 }
 
 .card-coming-soon {
@@ -53,47 +29,4 @@
   bottom: 15px;
   z-index: 2;
   opacity: 0.8;
-}
-
-.card-tech {
-  display: flex;
-  border: 2px solid rgb(216, 195, 2);
-  border-radius: 10px;
-  justify-content: center;
-  width: 100px;
-  gap: 10px;
-}
-
-.card-title {
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-  align-items: center;
-  text-align: justify;
-}
-
-.card-app {
-  display: flex;
-  border: 2px solid rgb(0, 0, 0);
-  border-radius: 15px;
-  justify-content: center;
-  background-color: black;
-  color: white;
-  width: 300px;
-  gap: 10px;
-  height: 30px;
-  align-items: center;
-}
-
-.card-git {
-  display: flex;
-  border: 2px solid rgb(0, 0, 0);
-  border-radius: 15px;
-  justify-content: center;
-  background-color: white;
-  color: black;
-  width: 300px;
-  gap: 10px;
-  height: 30px;
-  align-items: center;
 }

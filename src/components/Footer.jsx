@@ -59,18 +59,17 @@ export default function Footer() {
   ));
 
   return (
-    <div>
-      <div name="contact" className="footer-content">
-        <div className="footer-text-contact">
+    <div className="footer-content-block" name="contact">
+      <div className="footer-block">
+        <div className="footer-title">
           <h1>Contact me</h1>
-          <div className="footer-contact">
-            <p className="footer-text">
-              Here is my contact information if you are interested in
-              interviewing me.
-            </p>
-            <div className="footer-contact-block">{contactBlock}</div>
-          </div>
         </div>
+
+        <p className="footer-text">
+          Here is my contact information if you are interested in interviewing
+          me.
+        </p>
+        <div className="footer-contact-block">{contactBlock}</div>
       </div>
       <div className="footer-media-block">{mediaBlock}</div>
     </div>

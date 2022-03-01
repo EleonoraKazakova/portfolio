@@ -6,34 +6,26 @@
 }
 
 .app-hero {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
   background-color: #424147;
   display: flex;
 }
 .app-about {
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
   background-color: #e5e7ed;
+  justify-content: center;
+  display: flex;
 }
 .app-portfolio {
-  grid-column: 1 / 2;
-  grid-row: 3 / 4;
   background-color: #424147;
   display: flex;
   justify-content: center;
   color: white;
 }
 .app-tech {
-  grid-column: 1 / 2;
-  grid-row: 4 / 5;
   background-color: #e5e7ed;
   display: flex;
   justify-content: center;
 }
 
 .app-footer {
-  grid-column: 1 / 2;
-  grid-row: 5 / 6;
   background-color: #424147;
 }

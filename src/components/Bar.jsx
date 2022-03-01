@@ -12,11 +12,8 @@ export default function Bar() {
       <Link to="portfolio" smooth={true} duration={1000} className="bar-link">
         Portfolio
       </Link>
-      <img
-        onClick={() => scroll.scrollToTop()}
-        className="bar-logo"
-        src={Logo}
-      />
+
+      <img onClick={scroll.scrollToTop} className="bar-logo" src={Logo} />
       <Link to="tech" smooth={true} duration={1000} className="bar-link">
         Tech
       </Link>

@@ -1,5 +1,5 @@
 @media (max-width: 899px) {
-  .modal-MODALSTYLES {
+  .modal-styles {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -24,11 +24,11 @@
 }
 
 @media (min-width: 900px) {
-  .modal-MODALSTYLES {
+  .modal-styles {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 800px;
+    width: 900px;
     height: 300px;
     position: fixed;
     top: 50%;
@@ -46,7 +46,7 @@
   }
 }
 
-.modal-OVERLAY_STYLES {
+.modal-overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -59,8 +59,6 @@
 .modal-name-tech {
   display: flex;
   flex-direction: column;
-  padding: 20px;
-  gap: 20px;
 }
 
 .modal-tech {
