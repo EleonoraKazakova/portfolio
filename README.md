@@ -26,7 +26,7 @@ http://localhost:3000/
 
 https://portfolio-814cf.web.app/
 
-### `npm build`
+### `npm run build`
 
 Builds the app for production to the `build` folder.
 
