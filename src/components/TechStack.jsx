@@ -1,4 +1,16 @@
 import "../styles/techStack.css";
+/**
+ *
+ *
+ *
+ *
+ * LOOK a how many imports  you have, is too much! thats why you need to import the images
+ *
+ *
+ *
+ *
+ *
+ */
 import Figma from "../images/tech/figma.png";
 import CSS from "../images/tech/CSS.png";
 import Firebase from "../images/tech/firebase.png";
@@ -12,6 +24,7 @@ import ReactTest from "../images/tech/reactTest.png";
 import SASS from "../images/tech/sass.png";
 import TS from "../images/tech/ts.jpg";
 
+// -1 Although you are under 50 lines of code, this component is too long, extract the info do a JSON instead of a JS object
 export default function TechStack() {
   const imgTech = [
     { id: 0, img: JS, name: "JavaScript" },

@@ -3,6 +3,7 @@ import { data } from "./DataProjects";
 
 import Card from "./Card";
 
+// good
 export default function Portfolio() {
   const projectBlock = data.projects.map((project) => (
     <Card card={project} key={project.id} />

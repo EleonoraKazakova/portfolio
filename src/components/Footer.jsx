@@ -7,7 +7,29 @@ import Location from "../images/footer/location.svg";
 import Phone from "../images/footer/phone.svg";
 import { ExternalLink } from "react-external-link";
 
+// Component lenght over 50 lines of code -1, you could have extracted the footer info into a json.
+// That would force you to think a better way to build the json withouth embedding HTML inside id.
 export default function Footer() {
+  // Here is the solution
+  // 1. put the contacts into the data/contacts.json folder
+  // 2. The json should look like:
+  /**
+   * [
+   *  {
+   *    id: 0,
+   *    image: "envelope.svg"
+   *    url: "mailto:eleonora.kazakova89@gmail.com"
+   *    label: eleonora.kazakova89@gmail.com
+   *  },
+   *  {
+   *    id: 1,
+   *    image: "phone.svg"
+   *    url: "tel:+46707994751"
+   *    label: +46 70 799 4751
+   *  }
+   * ]
+   */
+
   const contacts = [
     {
       id: 0,

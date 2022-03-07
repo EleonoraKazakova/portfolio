@@ -7,6 +7,7 @@ export default function Project({ card }) {
       {technology}
     </div>
   ));
+  // add a new line between this 2 lines of code
   return (
     <div className="project-content">
       <img src={card.imgProject} className="project-img" />
@@ -16,6 +17,8 @@ export default function Project({ card }) {
 
         <div className="project-tech-block">{technologies}</div>
 
+        {/* Unnecesary plugin -1 */}
+        {/* Why a react component when you can do the same with <a> tag? */}
         <ExternalLink href={card.web} className="project-app">
           <span>Visit the site</span>
         </ExternalLink>

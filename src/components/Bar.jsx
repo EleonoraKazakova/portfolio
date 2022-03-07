@@ -14,6 +14,7 @@ export default function Bar() {
       </Link>
 
       <img onClick={scroll.scrollToTop} className="bar-logo" src={Logo} />
+      {/* Add an space between img and Link otherwise is hard to see that the img tag existed */}
       <Link to="tech" smooth={true} duration={1000} className="bar-link">
         Tech
       </Link>

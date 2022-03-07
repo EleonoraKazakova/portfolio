@@ -7,6 +7,9 @@ import TodoList_project from "../images/to-do.jpg";
 
 import Package_img from "../images/package.jpg";
 
+// Data format, for now, i wont remove points, but use a JSON for next projects.
+// You will need to check how to integrate an image using jsons.
+// That being said, -1 for not putting this file in a data/ folder
 export const data = {
   projects: [
     {

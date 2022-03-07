@@ -1,5 +1,6 @@
 import "../styles/hero.css";
 
+// good
 export default function Hero() {
   return (
     <div className="hero-content" name="hero">
