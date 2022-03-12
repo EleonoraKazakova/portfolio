@@ -1,15 +1,32 @@
-.bar-content {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  align-items: center;
-  background-color: black;
-  color: yellow;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 80px;
-  z-index: 3;
+@media (max-width: 699px) {
+  .bar-content {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    background-color: black;
+    color: yellow;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 3;
+  }
+}
+@media (min-width: 700px) {
+  .bar-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    background-color: black;
+    color: yellow;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 3;
+  }
 }
 
 .bar-logo {
