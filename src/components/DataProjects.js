@@ -4,6 +4,7 @@ import LMS_img from "../images/lms.jpg";
 import Netflix_img from "../images/netflix.jpg";
 import TodoList_img from "../images/todolist.jpg";
 import TodoList_project from "../images/to-do.jpg";
+import VegoRestaurant_ptoject from "../images/vego.jpg";
 
 import Package_img from "../images/package.jpg";
 
@@ -13,12 +14,12 @@ export const data = {
       id: "0",
       name: "Vegan restaurant",
       img: Restaurant_img,
-      imgProject: "",
-      tech: [""],
-      text: "",
-      git: "",
-      web: "",
-      status: false,
+      imgProject: VegoRestaurant_ptoject,
+      tech: ["JavaScript", "HTML", "CSS", "React"],
+      text: "This project is about a vegan restaurant where users can see the menu and information about every dish. It uses:",
+      git: "https://github.com/EleonoraKazakova/vegan-restaurant",
+      web: "https://vegan-restaurant-578f5.web.app",
+      status: true,
     },
     {
       id: "1",

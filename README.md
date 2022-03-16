@@ -29,5 +29,3 @@ https://portfolio-814cf.web.app/
 ### `npm run build`
 
 Builds the app for production to the `build` folder.
-
-![image](./src/images/site.jpg)
