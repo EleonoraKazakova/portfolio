@@ -1,6 +1,5 @@
 import "../styles/portfolio.css";
 import dataProject from "../data/dataProject.json";
-
 import Card from "./Card";
 
 export default function Portfolio() {
@@ -8,6 +7,7 @@ export default function Portfolio() {
     <Card card={project} key={project.id} />
   ));
 
+  console.log("projectBlock:", projectBlock);
   return (
     <section className="portfolio-main-block">
       <article className="portfolio-content-block" name="portfolio">

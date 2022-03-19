@@ -1,7 +1,22 @@
+import PropTypes from "prop-types";
 import Modal from "./Modal";
 import "../styles/card.css";
 import { useState } from "react";
 import Project from "./Project";
+
+Card.propTypes = {
+  card: PropTypes.shape({
+    id: PropTypes.number,
+    name: PropTypes.string,
+    img: PropTypes.string,
+    imgProject: PropTypes.string,
+    tech: PropTypes.array,
+    text: PropTypes.string,
+    git: PropTypes.string,
+    web: PropTypes.string,
+    status: PropTypes.bool,
+  }),
+};
 
 export default function Card({ card }) {
   const [isOpen, setIsOpen] = useState(false);
