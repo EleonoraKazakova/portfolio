@@ -7,24 +7,34 @@ export default function Card({ card }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div>
-      <div onClick={() => setIsOpen(true)} className="card-content">
-        {card.status ? (
-          <img src={card.img} className="card-photo" />
-        ) : (
+    <section>
+      {card.status ? (
+        <button
+          onClick={() => setIsOpen(true)}
+          className="card-content card-content-cursor-pointer"
+        >
+          <img src={require(`../images/${card.img}`)} className="card-photo" />
+          <p>{card.name}</p>
+        </button>
+      ) : (
+        <button onClick={() => setIsOpen(true)} className="card-content">
           <div className="card-parent">
-            <img src={card.img} className="card-photo" />
+            <img
+              src={require(`../images/${card.img}`)}
+              className="card-photo"
+            />
             <div className="card-coming-soon">coming soon</div>
           </div>
-        )}
-        <p>{card.name}</p>
-      </div>
+
+          <p>{card.name}</p>
+        </button>
+      )}
 
       {card.text.length > 0 ? (
         <Modal open={isOpen} onClose={() => setIsOpen(false)}>
           <Project card={card} />
         </Modal>
       ) : null}
-    </div>
+    </section>
   );
 }

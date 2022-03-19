@@ -1,0 +1,16 @@
+{
+  "dataTech": [
+    { "id": 0, "img": "js.png", "name": "JavaScript" },
+    { "id": 1, "img": "ts.jpg", "name": "TypeScript" },
+    { "id": 2, "img": "html.png", "name": "HTML" },
+    { "id": 3, "img": "React.png", "name": "React" },
+    { "id": 4, "img": "sass.png", "name": "SASS" },
+    { "id": 5, "img": "CSS.png", "name": "CSS" },
+    { "id": 6, "img": "reactTest.png", "name": "React testing library" },
+    { "id": 7, "img": "jest.png", "name": "Jest" },
+    { "id": 8, "img": "Git.png", "name": "Git" },
+    { "id": 9, "img": "mysql.png", "name": "MYSQL" },
+    { "id": 10, "img": "figma.png", "name": "Figma" },
+    { "id": 11, "img": "firebase.png", "name": "Firebase" }
+  ]
+}

@@ -59,10 +59,10 @@ export default function Footer() {
   ));
 
   return (
-    <div className="footer-content-block" name="contact">
+    <footer className="footer-content-block" name="contact">
       <div className="footer-block">
         <div className="footer-title">
-          <h1>Contact me</h1>
+          <h2>Contact me</h2>
         </div>
 
         <p className="footer-text">
@@ -72,6 +72,6 @@ export default function Footer() {
         <div className="footer-contact-block">{contactBlock}</div>
       </div>
       <div className="footer-media-block">{mediaBlock}</div>
-    </div>
+    </footer>
   );
 }

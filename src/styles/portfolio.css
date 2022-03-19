@@ -54,3 +54,10 @@
     grid-row: 2/3;
   }
 }
+
+.portfolio-main-block {
+  background-color: #424147;
+  display: flex;
+  justify-content: center;
+  color: white;
+}

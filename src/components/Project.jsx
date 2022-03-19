@@ -8,8 +8,11 @@ export default function Project({ card }) {
     </div>
   ));
   return (
-    <div className="project-content">
-      <img src={card.imgProject} className="project-img" />
+    <section className="project-content">
+      <img
+        src={require(`../images/${card.imgProject}`)}
+        className="project-img"
+      />
       <div className="project-block">
         <p className="project-title">{card.name}</p>
         <p>{card.text}</p>
@@ -23,6 +26,6 @@ export default function Project({ card }) {
           <span>Source code</span>
         </ExternalLink>
       </div>
-    </div>
+    </section>
   );
 }

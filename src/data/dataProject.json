@@ -1,0 +1,70 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "name": "Vegan restaurant",
+      "img": "restaurant.jpg",
+      "imgProject": "vego.jpg",
+      "tech": ["JavaScript", "HTML", "CSS", "React"],
+      "text": "This project is about a vegan restaurant where users can see the menu and information about every dish. It uses:",
+      "git": "https://github.com/EleonoraKazakova/vegan-restaurant",
+      "web": "https://vegan-restaurant-578f5.web.app",
+      "status": true
+    },
+    {
+      "id": 1,
+      "name": "Package tracker",
+      "img": "package.jpg",
+      "imgProject": "",
+      "tech": [""],
+      "text": "",
+      "git": "",
+      "web": "",
+      "status": false
+    },
+    {
+      "id": 2,
+      "name": "Todo list",
+      "img": "todolist.jpg",
+      "imgProject": "to-do.jpg",
+      "tech": ["JavaScript", "HTML", "CSS", "React"],
+      "text": "This is a todo list app which allows you to add items, sort them by name, mark them done and store the list on your web browser. It uses:",
+      "git": "https://github.com/EleonoraKazakova/novare",
+      "web": "http://eleonorakazakova.github.io/novare",
+      "status": true
+    },
+    {
+      "id": 3,
+      "name": "BBQ Restaurant",
+      "img": "bbq.jpg",
+      "imgProject": "",
+      "tech": [""],
+      "text": "",
+      "git": "",
+      "web": "",
+      "status": false
+    },
+    {
+      "id": 4,
+      "name": "LMS",
+      "img": "lms.jpg",
+      "imgProject": "",
+      "tech": [""],
+      "text": "",
+      "git": "",
+      "web": "",
+      "status": false
+    },
+    {
+      "id": 5,
+      "name": "Netflix clone",
+      "img": "netflix.jpg",
+      "imgProject": "",
+      "tech": [""],
+      "text": "",
+      "git": "",
+      "web": "",
+      "status": false
+    }
+  ]
+}

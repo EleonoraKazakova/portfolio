@@ -24,3 +24,11 @@ label,
 button {
   font-size: 18px;
 }
+
+button {
+  border: none;
+}
+
+h2 {
+  font-size: 25px;
+}

@@ -1,23 +1,25 @@
 @media (max-width: 899px) {
   .hero-block {
-    color: #ffef00;
+    color: #ffd700;
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 200px 20px 0 20px;
+    padding: 0 20px 0 20px;
+    background-color: rgba(58, 66, 74, 0.45);
   }
 
   .hero-title {
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .hero-text {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
+    padding-bottom: 15px;
   }
 
   .hero-content {
-    background-image: url("../images/hero.jpg");
+    background-image: url("../images/laptop2.jpg");
     background-position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,30 +28,35 @@
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    background-color: #424147;
+    align-items: center;
   }
 }
 
 @media (min-width: 900px) {
   .hero-block {
-    color: #ffef00;
+    color: #ffd700;
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
-    padding: 300px 0 0 0;
+    padding: 0 0 0 0;
+    background-color: rgba(58, 66, 74, 0.45);
   }
 
   .hero-title {
-    font-size: 100px;
+    font-size: 80px;
   }
 
   .hero-text {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
+    width: 50%;
+    padding-bottom: 15px;
   }
 
   .hero-content {
-    background-image: url("../images/hero.jpg");
+    background-image: url("../images/laptop2.jpg");
     background-position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,5 +65,7 @@
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    background-color: #424147;
+    align-items: center;
   }
 }

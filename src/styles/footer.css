@@ -1,6 +1,7 @@
 @media (max-width: 899px) {
   .footer-content-block {
     color: white;
+    background-color: #424147;
   }
 
   .footer-title {
@@ -26,6 +27,7 @@
 @media (min-width: 900px) {
   .footer-content-block {
     color: white;
+    background-color: #424147;
   }
 
   .footer-block {

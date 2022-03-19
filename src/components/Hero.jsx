@@ -2,7 +2,7 @@ import "../styles/hero.css";
 
 export default function Hero() {
   return (
-    <div className="hero-content" name="hero">
+    <header className="hero-content" name="hero">
       <div className="hero-block">
         <h1 className="hero-title">Welcome!</h1>
         <p className="hero-text">
@@ -10,6 +10,6 @@ export default function Hero() {
           in Uppsala.
         </p>
       </div>
-    </div>
+    </header>
   );
 }

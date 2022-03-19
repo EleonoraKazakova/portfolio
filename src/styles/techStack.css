@@ -52,3 +52,9 @@
 .techStack-photo-title {
   text-align: center;
 }
+
+.techStack-main-block {
+  background-color: #e5e7ed;
+  display: flex;
+  justify-content: center;
+}

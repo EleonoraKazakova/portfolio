@@ -29,6 +29,10 @@
     display: flex;
     justify-content: center;
   }
+
+  .about-photo {
+    width: 250px;
+  }
 }
 
 @media (min-width: 900px) {
@@ -54,8 +58,14 @@
     display: flex;
     justify-content: center;
   }
+
+  .about-photo {
+    width: 300px;
+  }
 }
 
-.about-photo {
-  width: 300px;
+.about-main-block {
+  background-color: #e5e7ed;
+  justify-content: center;
+  display: flex;
 }
