@@ -15,18 +15,18 @@
       "id": 1,
       "name": "Package tracker",
       "img": "package.jpg",
-      "imgProject": "",
-      "tech": [""],
-      "text": "",
-      "git": "",
-      "web": "",
-      "status": false
+      "imgProject": "packageIMG.jpg",
+      "tech": ["JavaScript", "HTML", "CSS", "React"],
+      "text": "This project is about a package-tracker where users can see all his orders. It uses:",
+      "git": "https://github.com/EleonoraKazakova/package-tracker",
+      "web": "https://package-tracker-13424.web.app/",
+      "status": true
     },
     {
       "id": 2,
       "name": "Todo list",
       "img": "todolist.jpg",
-      "imgProject": "to-do.jpg",
+      "imgProject": "todo.jpg",
       "tech": ["JavaScript", "HTML", "CSS", "React"],
       "text": "This is a todo list app which allows you to add items, sort them by name, mark them done and store the list on your web browser. It uses:",
       "git": "https://github.com/EleonoraKazakova/novare",
@@ -35,14 +35,14 @@
     },
     {
       "id": 3,
-      "name": "BBQ Restaurant",
+      "name": "Texas. BBQ Restaurant",
       "img": "bbq.jpg",
-      "imgProject": "",
-      "tech": [""],
-      "text": "",
-      "git": "",
-      "web": "",
-      "status": false
+      "imgProject": "texas.jpg",
+      "tech": ["JavaScript", "HTML", "SASS", "React", "FireBase"],
+      "text": "This is a restaurant app which allows you to add categories and dishes using brouser. It uses:",
+      "git": "https://github.com/EleonoraKazakova/texas",
+      "web": "https://texas-4fc60.web.app/",
+      "status": true
     },
     {
       "id": 4,
