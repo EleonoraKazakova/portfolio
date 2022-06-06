@@ -48,23 +48,23 @@
       "id": 4,
       "name": "LMS",
       "img": "lms.jpg",
-      "imgProject": "",
-      "tech": [""],
-      "text": "",
-      "git": "",
-      "web": "",
-      "status": false
+      "imgProject": "artSchool.jpg",
+      "tech": ["JavaScript", "HTML", "SASS", "React", "FireBase"],
+      "text": "This is a learning management system app which allows you to add courses. It uses:",
+      "git": "https://github.com/EleonoraKazakova/ArtSchool",
+      "web": "https://lmsart-df84d.web.app/",
+      "status": true
     },
     {
       "id": 5,
       "name": "Netflix clone",
       "img": "netflix.jpg",
-      "imgProject": "",
-      "tech": [""],
-      "text": "",
-      "git": "",
-      "web": "",
-      "status": false
+      "imgProject": "netflixClone.jpg",
+      "tech": ["JavaScript", "HTML", "SASS", "React", "FireBase"],
+      "text": "This is Netflix-Clone app which allows you to add movies/series. It uses:",
+      "git": "https://github.com/EleonoraKazakova/netflixClone",
+      "web": "https://netflix-5761b.web.app/",
+      "status": true
     }
   ]
 }

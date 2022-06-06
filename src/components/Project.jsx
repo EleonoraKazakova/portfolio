@@ -15,7 +15,7 @@ export default function Project({ card }) {
       />
       <div className="project-block">
         <p className="project-title">{card.name}</p>
-        <p>{card.text}</p>
+        <p className="project-text">{card.text}</p>
 
         <div className="project-tech-block">{technologies}</div>
 

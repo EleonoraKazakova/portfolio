@@ -39,7 +39,6 @@
 
   .project-content {
     display: flex;
-    gap: 20px;
     flex-direction: row;
     align-items: center;
     text-align: justify;
@@ -55,11 +54,13 @@
     align-items: center;
     text-align: justify;
     gap: 10px;
+    height: 100%;
+    padding: 10px 0 10px 20px;
   }
 }
 
 .project-title {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: bold;
 }
 
@@ -96,4 +97,8 @@
   justify-content: center;
   width: 100px;
   font-size: 14px;
+}
+
+.project-text {
+  font-size: 16px;
 }

@@ -14,8 +14,7 @@
   }
 
   .modal-mark {
-    width: 15px;
-    height: 15px;
+    height: 20px;
     cursor: pointer;
     margin: 5px;
     position: absolute;
@@ -39,8 +38,7 @@
   }
 
   .modal-mark {
-    width: 15px;
-    height: 15px;
+    height: 20px;
     cursor: pointer;
     margin: 5px;
   }
