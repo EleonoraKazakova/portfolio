@@ -1,6 +1,28 @@
 {
   "projects": [
     {
+      "id": 5,
+      "name": "Netflix clone",
+      "img": "netflix.jpg",
+      "imgProject": "netflixClone.jpg",
+      "tech": ["JavaScript", "HTML", "SASS", "React", "FireBase"],
+      "text": "This is Netflix-Clone app which allows you to add movies/series. It uses:",
+      "git": "https://github.com/EleonoraKazakova/netflixClone",
+      "web": "https://netflix-5761b.web.app/",
+      "status": true
+    },
+    {
+      "id": 6,
+      "name": "Tests of Jest and React",
+      "img": "test.jpg",
+      "imgProject": "tests.jpg",
+      "tech": ["Jest", "JavaScript", "HTML", "SASS", "React", "FireBase"],
+      "text": "This is a todo list app which allows you to add items, but important part is tests of Jest and React Testing Library. It uses:",
+      "git": "https://github.com/EleonoraKazakova/test-to-do-list",
+      "web": "https://test-to-do-list-58295.web.app/",
+      "status": true
+    },
+    {
       "id": 0,
       "name": "Vegan restaurant",
       "img": "restaurant.jpg",
@@ -9,6 +31,17 @@
       "text": "This project is about a vegan restaurant where users can see the menu and information about every dish. It uses:",
       "git": "https://github.com/EleonoraKazakova/vegan-restaurant",
       "web": "https://vegan-restaurant-578f5.web.app",
+      "status": true
+    },
+    {
+      "id": 7,
+      "name": "Calculator",
+      "img": "calculate.jpg",
+      "imgProject": "calculator.jpg",
+      "tech": ["TypeScript", "HTML", "SCSS", "React"],
+      "text": "This is a calculator, user can add, subtract, divide and multiply numbers. It uses:",
+      "git": "https://github.com/EleonoraKazakova/calculator",
+      "web": "https://eleonorakazakova.github.io/calculator/",
       "status": true
     },
     {
@@ -45,6 +78,17 @@
       "status": true
     },
     {
+      "id": 8,
+      "name": "Crowdfunding",
+      "img": "donates.jpg",
+      "imgProject": "crowdfund.jpg",
+      "tech": ["JavaScript", "HTML", "SASS", "React"],
+      "text": "Users are able to see an updated progress bar and total money raised based on their pledge total after confirming a pledge. It uses:",
+      "git": "https://github.com/EleonoraKazakova/crowdfunding-product-page-main",
+      "web": "https://eleonorakazakova.github.io/crowdfunding-product-page-main/",
+      "status": true
+    },
+    {
       "id": 4,
       "name": "LMS",
       "img": "lms.jpg",
@@ -56,14 +100,14 @@
       "status": true
     },
     {
-      "id": 5,
-      "name": "Netflix clone",
-      "img": "netflix.jpg",
-      "imgProject": "netflixClone.jpg",
-      "tech": ["JavaScript", "HTML", "SASS", "React", "FireBase"],
-      "text": "This is Netflix-Clone app which allows you to add movies/series. It uses:",
-      "git": "https://github.com/EleonoraKazakova/netflixClone",
-      "web": "https://netflix-5761b.web.app/",
+      "id": 9,
+      "name": "Pricing component",
+      "img": "price.jpg",
+      "imgProject": "priceProject.jpg",
+      "tech": ["JavaScript", "HTML", "SASS", "React"],
+      "text": "Users can cee hover states for all interactive elements on the page. It uses:",
+      "git": "https://github.com/EleonoraKazakova/ArtSchool",
+      "web": "https://lmsart-df84d.web.app/",
       "status": true
     }
   ]

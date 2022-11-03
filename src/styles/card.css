@@ -22,6 +22,8 @@
 
 .card-photo {
   width: 200px;
+  height: 130px;
+  object-fit: cover;
 }
 
 .card-coming-soon {
